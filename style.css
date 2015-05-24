@@ -1,0 +1,85 @@
+/* This is a CSS comment.*/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: georgia;
+	font-size: 16px;
+	line-height: 1.48em;
+	color: #2a2a2a;
+	max-width: 1000px;
+	margin: 10px auto;
+	background-color: #d6d9fc;
+}
+h1{
+	font-family: impact;
+	text-align: center;
+	font-size: 40px;
+	color: #15052D;
+}
+
+h2{
+	font-family: helvetica;
+	text-align: center;
+	font-size: 28px;
+	color:#ffffff;
+}
+h3{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.TOC{
+	padding: 2%;
+	max-width: 800px;
+	margin: 10px auto;
+}
+.TOC ul{
+	list-style-type: upper-roman;
+}
+.TOC ol{
+	margin-right: 30px;
+}
+.TOC h2{
+	text-align: left;
+	color:#15052d;
+}
+
+.my-photo{
+	position: relative;
+	float: right;
+	max-width: 275px;
+	max-height: 275px;
+	margin: 10% 50px;
+	border-radius: 100px;
+}
+.lesson{
+	background-color: #507dbc;
+	padding: 10px;
+	border-radius: 30px;
+	margin: 20px auto;
+}
+.lesson-idea{
+	background-color: #c9e3ff;
+	border-radius: 20px;
+	padding: 15px;
+	margin: 10px;
+}
+.steps{
+	font-weight:bolder;
+	font-size:2em;
+	color: #15052D;
+	text-decoration: underline;
+}
+#box-image{
+	float: right;
+	padding: 5px 10px;
+}
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/

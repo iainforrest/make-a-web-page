@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Stage 1 Project - Make Your Web-page</title>
+</head>
+
+<body>
+<h1>Stage 1 - Make Your Web Page</h1>
+<div class="TOC">
+    <img class="my-photo" src="images/me.jpg" alt="Image Of Me">
+    <h2>Table Of Contents</h2>
+    <ol>
+        <li><a href="#less-1">The Basics of the Web and HTML</a>
+            <ul>
+                <li><a href="#less-1-1">The Internet</a></li>
+                <li><a href="#less-1-2">HTML - Hyper Text Markup Language</a></li>
+                <li><a href="#less-1-3">In-line Vs Block</a></li>
+                <li><a href="#less-1-4">You Don't Need to Know Everything</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#less-2">Creating a Structured Document</a>
+            <ul>
+                <li><a href="#less-2-1">How Do Websites Work?</a></li>
+                <li><a href="#less-2-2">Tools</a></li>
+                <li><a href="#less-2-3">Tree Like Structure</a></li>
+                <li><a href="#less-2-4">HTML, CSS &amp; DOM</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#less-3">Adding CSS Style and HTML Structure</a>
+            <ul>
+                <li><a href="#less-3-1">CSS - Cascading Style Sheets</a></li>
+                <li><a href="#less-3-2">The Box Model</a></li>
+                <li><a href="#less-3-3">Code, Test, Refine</a></li>
+            </ul>
+        </li>
+    </ol>
+</div>
+
+<div class="lesson" id="less-1">
+    <h2>1.1The Basics of the Web and HTML</h2>
+    <div class="lesson-idea" id="less-1-1">
+        <h3>The Internet</h3>
+        <p>The Internet is a connection of computers that form a network that allows information to be distributed around the Globe.It is essentially made up of users sitting on their computers with normal screens and mice, and servers, computers that are designed to serve files quickly. The user sends out a request to the sever using HTTP "<em>Hyper Text Transfer Protocol</em>". The server then sends back a file which is generally a HTML "<em>Hyper Text Markup Language</em>" document.</p>
+    </div>
+    <div class="lesson-idea" id="less-1-2">
+        <h3>HTML - <em>Hyper Text Markup Language</em></h3>
+        <p>HTML documents form the basis of the Internet as we see it on our browsers.
+            They contain text in a language that the browser can convert into  the webpages we are familiar with. This text uses
+            <b>Tags</b> which can do simple things, like make text <b>BOLD</b> or <em>Italicized</em>. Or it can insert pictures, or links to other places - <a href="http://en.wikipedia.org/wiki/HTML" target="_blank">Such as this link to Wikipedia.</a> </p>
+            <p>HTML documents are also broken down in sections which contain different sorts of information. There is the document type(these days generally just "HTML"), the title (The description in the browser title bar) , the header (containing CSS elements and other info), and the body (which is where the main content goes. <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48748025">As explained in this video</a>. </p>
+    </div>
+    <div class="lesson-idea" id="less-1-3">
+        <h3>In-line Vs Block</h3>
+        <p>There are 2 basic sorts of Tags (or elements). These are <b>in-line</b> and <b>Block</b></p>
+        <p>As the name suggests, In-line, means that the tag doesn't interrupt the  line. The text would continue to flow.
+        <b>Bold</b>, <em>Italics</em>, images and links are examples of In-line tags.</p>
+        <p> Block tags on the other hand create blocks of text within them. These paragraphs are written in the block p tags. Div, header and body are also block tags.</p>
+    </div>
+    <div class="lesson-idea" id="less-1-4">
+        <h3>You Don't Need to Know Everything</h3>
+        <p>Help is just a quick Google search away.</p>
+        <p>Can't remember how to make text bold? just Google, "HTML make text bold" <b>and the answer will quickly become apparent</b>.</p>
+        <p>Just focus on learning the higher level information and a deeper understanding of how it all fits together and then you can Google the exact syntax of a language if you forget.</p>
+    </div>
+</div>
+<div class="lesson" id="less-2">
+   <h2>1.2 Creating a Structured Document</h2>
+    <div class="lesson-idea" id="less-2-1">
+        <h3>How Do Websites Work?</h3>
+        <p>In general a website is made up of three basic elements and we can think of these with the analogy of a house.</p>
+        <ul>
+            <li>First there is the structure, the walls and rooms of a house or the HTML on a webpage.</li>
+            <li>Then we have the styling, the colour of the paint, curtains etc. This corresponds to the CSS elements.</li>
+            <li>Lastly we have the interactive components, your TV, phone, lights etc, which can all be turned off and on or changed in real time. This is Javascript.</li>
+        </ul>
+        <p>In order to build our house or website we have rules to follow and tools that we can use.</p>
+    </div>
+    <div class="lesson-idea" id="less-2-2">
+        <h3>Tools</h3>
+        <p>There are some great tools that we can use as we learn to be programmers.</p>
+        <p>For learning front end web development we have <a href="http://scratchpad.io/cut-passenger-4121">Scratchpad</a>, <a href="http://codepen.io/pen/">Codepen</a>, and <a href="http://www.sublimetext.com/">Sublime Text</a></p>
+        <p>A really good <a href ="https://www.youtube.com/watch?v=Wg8dtu2gbwQ">video describing the differences can be found here...</a></p>
+        <p>Another great tool to use as you learn front end web development is to see what others have done. You can do this easily on Chrome. If you find a webpage that you like, you can right click on an element and select "inspect element" and it will bring up the DOM of the page where you can see the HTML and CSS components and how they interact.</p>
+        <p>You can also play with the values in this area and the page will update in real time. NB. changes aren't permanent and when you refresh the page you'll loose whatever you did. But it's a great way to explore how values effect different elements.</p>
+    </div>
+
+    <div class="lesson-idea" id="less-2-3">
+        <h3>Tree Like Structure</h3>
+        <p>Web pages can be broken down into a tree like structure. For more information on <a href="wikipedia.org/wiki/Tree_structure" target="_blank">Tree Structures visit this Wikipedia page.</a></p>
+        <p>This means that we can follow sections of the web page down in blocks. For example you could have a Div block which contains multiple paragraph blocks some of which could contain in-line tags, such as links or images. Just like this page you're reading now.</p>
+    </div>
+    <div class="lesson-idea" id="less-2-4">
+        <h3>HTML, CSS &amp; DOM</h3>
+        <p>In terms of structure and style we can brake the website down into HMTL - Hyper Text Markup Language, CSS - Cascading Style Sheets and DOM - Document Object Model.</p>
+        <p>Both HTML and CSS and languages. HTML is a language of structure and CSS is a language of style. They each have there own specific syntax but work synergistically. HTML is made up of Tags which contain Content. The Tags can have classes and attributes which are referenced in the CSS and those values provide the styling for that tag.</p>
+        <p>DOM is not a language, it is essentially a way of describing how the browser breaks down the HTML and CSS into the tree structure that is displayed on the page.</p>
+    </div>
+</div>
+
+<div class="lesson" id="less-3">
+    <h2>1.3 Adding CSS Style and HTML Structure</h2>
+    <div class="lesson-idea" id="less-3-1">
+        <h3>CSS - Cascading Style Sheets</h3>
+        <p>One of the biggest ideas in CSS is that of <em>selectors</em>.</p>
+        <p>Selectors are a way of describing which parts of the HTML the styling should apply to. There are several different types of selectors which include but are not limited to:</p>
+        <ul>
+            <li>Class Selectors - these are used in elements like divs where you could have div class = "hello" and in the style sheet you would describe styling that apply to any element with the class "hello"</li>
+            <li>Tag Selectors - This is for more general elements in the HTML document like p (paragraph), h2 (heading) and links.</li>
+        </ul>
+        <p>You can also blend styles for elements that belong to multiple tags and classes. eg. "h2" elements inside blocks with class "hello".</p>
+        <p>Again it is not important to learn all selectors now, but rather to know where to look. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">A great reference can be found here.</a></p>
+        <p>The really key thing to remember about CSS though is that a more specific definition will override a less specific one. One way to think of this is like driving on the open road. All highways in New Zealand have a set speed limit of 100km/hr. But sometime you might come across local road works and the speed drops to 30km/hr. The local specific definition of the speed in the work zone overrides the more general rule for highways.
+        </p>
+    </div>
+
+    <div class = "lesson-idea" id="less-3-2">
+        <h3>The Box Model</h3>
+        <img id="box-image" src="images/boxes.jpg" alt="Box Model">
+        <p>Every element in the HTML document is contained in a box and is subject to the Box Model. You can <a href="http://assignments.udacity-extras.appspot.com/courses/html-css/samples/box-model.html" target="_blank">play around with this here...</a></p>
+        <p>Every rectangle or box on the page can be broken down into 4 sections, the size of which can be defined as either a pixel or percentage. Percentages are better for changing screen sizes, which is pretty standard these days.</p>
+        <ul>
+            <li>Content - Found at the centre this is where the actual content lives, that could come in the form of text, and image, video etc.</li>
+            <li>Padding - This creates a space around the content but is subject to the background of the box.</li>
+            <li>Border - This is a physical / visible border around the content and is also set to the boxes background unless specified.</li>
+            <li>Margin - This is more of an invisible boundary around the border. It creates a space between the border and other items found around it.</li>
+        </ul>
+        <p>By default the element / box size is the sum of all the widths and heights of the inner 3 sections (content, padding, border) of the element. Because of this everytime we alter a value the size of the box would change. This makes keeping all the elements in line a difficult task.</p>
+        <p>Thankfully there is a css selector we can use called "box-sizing: border-box". When we use this we can play with the padding, border and content size and the box size will stay the same. Although this method does not include the margin. You do have to be aware though that this wont work on all (older) browsers.</p>
+    </div>
+    <div class="lesson-idea" id="less-3-3">
+        <h3>Code, Test, Refine</h3>
+        <p>When working through any project, but in this case building the code to display a webpage as provided by a designer, you can follow a simple 3 step process</p>
+        <p><span class="steps">Code, Test, Refine</span> and repeat</p>
+        <p>The way that you pick which elements to work on first will alter depending on the type of project. But for this style of web design a simple system would be:</p>
+        <ol>
+            <li>Break up into boxes</li>
+            <li>Identify repeated styles / elements</li>
+            <li>Start writing your HTML</li>
+            <li>Start writing your CSS (from biggest to smallest)</li>
+            <li>Identify the small errors and fix them</li>
+        </ol>
+    </div>
+</div>
+</body>
+</html>
